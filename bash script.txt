@@ -1,0 +1,389 @@
+root@52f89446764e:/home/doc-bd-a1# touch load
+root@52f89446764e:/home/doc-bd-a1# rm load
+root@52f89446764e:/home/doc-bd-a1# touch load.py
+root@52f89446764e:/home/doc-bd-a1# touch dpre.py
+root@52f89446764e:/home/doc-bd-a1# touch eda.py
+root@52f89446764e:/home/doc-bd-a1# touch vis.py
+root@52f89446764e:/home/doc-bd-a1# touch model.py
+root@52f89446764e:/home/doc-bd-a1# ls
+dpre.py  eda.py  load.py  model.py  train_titanic.csv  vis.py
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/load.py", line 33, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+  File "/home/doc-bd-a1/dpre.py", line 108
+    Transfer res_dpre.csv to vis.py directory
+IndentationError: unexpected indent
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+python3: can't open file '/home/doc-bd-a1/modle.py': [Errno 2] No such file or directory
+Clustering performed using modle.py.
+  File "/home/doc-bd-a1/vis.py", line 7
+    3,0,,-0.4778480503138746,Q,,
+        ^
+SyntaxError: invalid syntax
+Visualization created.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/load.py", line 33, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/dpre.py", line 113, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+usage: model.py [-h] input_file
+model.py: error: the following arguments are required: input_file
+k-means completed.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+usage: model.py [-h] input_file
+model.py: error: the following arguments are required: input_file
+k-means completed.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/model.py", line 59, in <module>
+    main()
+  File "/home/doc-bd-a1/model.py", line 49, in main
+    clusters = perform_clustering(args.input_file)
+  File "/home/doc-bd-a1/model.py", line 13, in perform_clustering
+    df.drop(columns=['Name'], inplace=True)
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py", line 5568, in drop
+    return super().drop(
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/generic.py", line 4785, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/generic.py", line 4827, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/indexes/base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['Name'] not found in axis"
+K-means clustering completed.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+K-means clustering completed.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 vis.py 
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/vis.py", line 16, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+root@52f89446764e:/home/doc-bd-a1# python3 vis.py 
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/model.py", line 29, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+K-means clustering completed.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/model.py", line 30, in <module>
+    main()
+  File "/home/doc-bd-a1/model.py", line 27, in main
+    apply_kmeans(df)
+  File "/home/doc-bd-a1/model.py", line 10, in apply_kmeans
+    clusters = kmeans.fit_predict(kmeans_data)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py", line 1071, in fit_predict
+    return self.fit(X, sample_weight=sample_weight).labels_
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py", line 1481, in fit
+    X = self._validate_data(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+K-means clustering completed.
+Dataset transferred to dpre.py successfully.
+root@52f89446764e:/home/doc-bd-a1# python3 model.py
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/model.py", line 30, in <module>
+    main()
+  File "/home/doc-bd-a1/model.py", line 27, in main
+    apply_kmeans(df)
+  File "/home/doc-bd-a1/model.py", line 10, in apply_kmeans
+    clusters = kmeans.fit_predict(kmeans_data)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py", line 1071, in fit_predict
+    return self.fit(X, sample_weight=sample_weight).labels_
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py", line 1481, in fit
+    X = self._validate_data(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+root@52f89446764e:/home/doc-bd-a1# python3 model.py
+Traceback (most recent call last):
+  File "/home/doc-bd-a1/model.py", line 30, in <module>
+    main()
+  File "/home/doc-bd-a1/model.py", line 27, in main
+    apply_kmeans(df)
+  File "/home/doc-bd-a1/model.py", line 10, in apply_kmeans
+    clusters = kmeans.fit_predict(kmeans_data)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py", line 1071, in fit_predict
+    return self.fit(X, sample_weight=sample_weight).labels_
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py", line 1481, in fit
+    X = self._validate_data(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+root@52f89446764e:/home/doc-bd-a1# python3 model.py
+root@52f89446764e:/home/doc-bd-a1# python3 load.py train_titanic.csv
+Dataset loaded successfully:
+   PassengerId  Survived  Pclass                                               Name     Sex  ...  Parch            Ticket     Fare Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  ...      0         A/5 21171   7.2500   NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  ...      0          PC 17599  71.2833   C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  female  ...      0  STON/O2. 3101282   7.9250   NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  ...      0            113803  53.1000  C123         S
+4            5         0       3                           Allen, Mr. William Henry    male  ...      0            373450   8.0500   NaN         S
+
+[5 rows x 12 columns]
+Null values in the dataset:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+Preprocessed data saved to res_dpre.csv
+EDA completed.
+Preprocessed data saved to res_dpre.csv
+K-means clustering completed.
+Dataset transferred to dpre.py successfully.

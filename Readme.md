@@ -1,8 +1,11 @@
 Titanic Dataset Analysis
+
 Overview
+
 This project involves the analysis of the Titanic dataset using various Python scripts. The dataset contains information about passengers aboard the Titanic, including details such as passenger ID, survival status, class, name, sex, age, ticket information, fare, cabin, and embarked port.
 
 Contents
+
 Scripts:
 
 load.py: Python script to load and preprocess the Titanic dataset.

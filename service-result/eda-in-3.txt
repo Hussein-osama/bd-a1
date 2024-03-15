@@ -1,0 +1,6 @@
+Insight 3: Value Counts for Embarked
+Embarked
+S    644
+C    168
+Q     77
+Name: count, dtype: int64

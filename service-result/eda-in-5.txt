@@ -1,0 +1,4 @@
+Insight 3: Value Counts for FareCategory
+FareCategory
+Low    211
+Name: count, dtype: int64

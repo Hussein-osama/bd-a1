@@ -1,0 +1,6 @@
+Insight 3: Value Counts for AgeGroup
+AgeGroup
+Adult      590
+Child      113
+Elderly     11
+Name: count, dtype: int64

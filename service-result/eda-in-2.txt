@@ -1,0 +1,9 @@
+Insight 2: Correlation Matrix
+                Pclass       Sex       Age      Fare  Embarked  AgeGroup  FareCategory
+Pclass        1.000000 -0.131900 -0.369226 -0.549500       NaN       NaN           NaN
+Sex          -0.131900  1.000000 -0.093254  0.182333       NaN       NaN           NaN
+Age          -0.369226 -0.093254  1.000000  0.096067       NaN       NaN           NaN
+Fare         -0.549500  0.182333  0.096067  1.000000       NaN       NaN           NaN
+Embarked           NaN       NaN       NaN       NaN       NaN       NaN           NaN
+AgeGroup           NaN       NaN       NaN       NaN       NaN       NaN           NaN
+FareCategory       NaN       NaN       NaN       NaN       NaN       NaN           NaN
